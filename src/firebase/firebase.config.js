@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
+// Your web app's Firebase configuratio
 const firebaseConfig = {
   apiKey: "AIzaSyC5Hui_Yv8VkC2oWfN1WRznLi6DlMtl8GM",
   authDomain: "ivaly-2a904.firebaseapp.com",
