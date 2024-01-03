@@ -48,6 +48,7 @@ const Header = () => {
             </ul>
           </div>
         </div>
+        <Link to="/">Home</Link>
       </div>
     </div>
   );
