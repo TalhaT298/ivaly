@@ -60,7 +60,7 @@ const Login = () => {
             </div>
           </form>
           <Link to="/register">
-          <button className="btn btn-outline btn-error">Error</button>
+          <button className="btn btn-outline btn-error">new to auth master</button>
           </Link>
         </div>
       </div>
