@@ -3,6 +3,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Register = () => {
+
+
+    const handleRegister= event =>{
+        event.preventDefault();
+        const from=event.target;
+        const name=from.name.value;
+        const email=from.email.value;
+        const password=from.password.value;
+    }
+
     return (
         <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -15,7 +25,7 @@ const Register = () => {
           </p> */}
         </div>
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <form className="card-body">
+          <form onSubmit={handleRegister} className="card-body">
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Name</span>
@@ -53,7 +63,7 @@ const Register = () => {
               />
               <label className="label">
                 <Link to="/login" className="label-text-alt link link-hover">
-                  Forgot password?
+                  Already have an account
                 </Link>
               </label>
             </div>
