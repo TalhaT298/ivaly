@@ -52,7 +52,7 @@ const Register = () => {
                 required
               />
               <label className="label">
-                <Link href="#" className="label-text-alt link link-hover">
+                <Link to="/login" className="label-text-alt link link-hover">
                   Forgot password?
                 </Link>
               </label>
