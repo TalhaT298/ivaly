@@ -5,7 +5,7 @@ const Login = () => {
 
 
     const handleLogin=event =>{
-        
+
     }
 
   return (
@@ -20,7 +20,7 @@ const Login = () => {
           </p> */}
         </div>
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <form className="card-body">
+          <form onSubmit={handleLogin} className="card-body">
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
