@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
 
@@ -58,6 +59,9 @@ const Login = () => {
               <button className="btn btn-primary">Login</button>
             </div>
           </form>
+          <Link>
+          <button className="btn btn-outline btn-error">Error</button>
+          </Link>
         </div>
       </div>
     </div>
