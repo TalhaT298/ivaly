@@ -59,7 +59,7 @@ const Login = () => {
               <button className="btn btn-primary">Login</button>
             </div>
           </form>
-          <Link>
+          <Link to="/register">
           <button className="btn btn-outline btn-error">Error</button>
           </Link>
         </div>
