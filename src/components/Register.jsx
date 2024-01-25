@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
@@ -22,7 +23,7 @@ const Register = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="email"
+                placeholder="name"
                 className="input input-bordered"
                 required
               />
@@ -51,9 +52,9 @@ const Register = () => {
                 required
               />
               <label className="label">
-                <a href="#" className="label-text-alt link link-hover">
+                <Link href="#" className="label-text-alt link link-hover">
                   Forgot password?
-                </a>
+                </Link>
               </label>
             </div>
             <div className="form-control mt-6">
