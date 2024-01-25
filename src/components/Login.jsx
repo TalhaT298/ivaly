@@ -5,6 +5,7 @@ const Login = () => {
 
 
     const handleLogin=event =>{
+        event.preventDefault();
         const from=event.target;
         const email=from.email.value;
         const password=from.password.value;
