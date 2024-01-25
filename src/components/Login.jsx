@@ -6,6 +6,9 @@ const Login = () => {
 
     const handleLogin=event =>{
         const from=event.target;
+        const email=from.email.value;
+        const password=from.password.value;
+        console.log(email,password)
     }
 
   return (
