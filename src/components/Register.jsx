@@ -11,6 +11,7 @@ const Register = () => {
         const name=from.name.value;
         const email=from.email.value;
         const password=from.password.value;
+        console.log(email,password,name)
     }
 
     return (
