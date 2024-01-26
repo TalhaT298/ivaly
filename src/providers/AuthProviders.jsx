@@ -2,9 +2,9 @@ import React, { createContext } from 'react';
 const AuthContext= createContext(null);
 const AuthProviders = () => {
     return (
-        <div>
+        <AuthContext.Provider>
             
-        </div>
+        </AuthContext.Provider>
     );
 };
 
