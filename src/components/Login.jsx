@@ -59,9 +59,11 @@ const Login = () => {
               <button className="btn btn-primary">Login</button>
             </div>
           </form>
-          <Link to="/register">
+          <p>
+          <Link to="/register " className="label-text-alt link link-hover">
           new to auth master
           </Link>
+          </p>
         </div>
       </div>
     </div>
