@@ -60,7 +60,7 @@ const Login = () => {
             </div>
           </form>
           <Link to="/register">
-          <button className="btn  btn-link">new to auth master</button>
+          new to auth master
           </Link>
         </div>
       </div>
