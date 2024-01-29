@@ -1,5 +1,5 @@
 import React, { createContext } from 'react';
-const AuthContext= createContext(null);
+export const AuthContext= createContext(null);
 const user={displayName:"Talha Tarique"}
 const AuthProviders = ({children}) => {
     return (
