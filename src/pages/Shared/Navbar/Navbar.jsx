@@ -1,7 +1,6 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import {Link } from 'react-router-dom'
-const Header = () => {
+const Navbar = () => {
   return (
     <div >
       <div className="navbar bg-base-100 max-w-[1400px] mx-auto">
@@ -58,7 +57,4 @@ const Header = () => {
   );
 };
 
-export default Header;
-
-
-
+export default Navbar;
